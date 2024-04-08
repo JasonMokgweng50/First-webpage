@@ -1,0 +1,64 @@
+/* Default styles */
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Queries for responsive layout */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+}
