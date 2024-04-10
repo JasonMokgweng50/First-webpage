@@ -4,11 +4,10 @@
     padding:0;
     font-family: Arial, sans-serif;
     boxing-size: border-box;
-
-
+}
 
 body {
-    background: rgba(0, 0, 0, 0.5) url('https://github.com/JasonMokgweng50/First-webpage/blob/main/JayMotorsJDM's(Gimpedit).png?raw=true') center center fixed;
+    background: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
@@ -46,7 +45,8 @@ footer {
 }
 
 /* Media Queries for responsive layout */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) 
+{
     header {
         padding: 10px 0;
     }
